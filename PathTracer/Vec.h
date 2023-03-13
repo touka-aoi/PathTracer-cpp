@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 
 class Vec {
 public:
@@ -15,3 +16,4 @@ public:
 	double length();
 	double dot(const Vec& b) const;
 };
+
